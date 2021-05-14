@@ -80,12 +80,6 @@
     transition: .5s;
  }
 
- @media screen and (max-width: 513px) {
-    .button {
-        padding: 10px;
-    }
- }
-
  .history {
     width: 80%;
     margin: 30px auto 0 auto;
@@ -116,6 +110,12 @@ th {
     }
     .history {
         width: 100%;
+    }
+    header{
+        margin: auto;
+    }
+    @keyframes slide {
+        
     }
  }
 
