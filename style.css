@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+ }
+
+ body {
+    background: linear-gradient(30deg, #ddd , #333);
+    font-family: sans-serif;
+ }
+
+ header{
+     color: white;
+     font-size: 20px;
+     margin-left: 400px;
+     animation-name: slide;
+     animation-duration: 7s;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes slide {
+     50% {
+         margin-left: 900px;
+     }
+ }
+
+ .flex-container-column {
+     display: flex;
+     flex-direction: column;
+     background-color: #333;
+     max-width: 800px;
+     border: 5px solid aqua;
+     margin: 0 auto;
+     text-align: right;
+ }
+
+ .flex-container-row {
+    display: flex;
+ }
+
+.button {
+    flex-basis: 25%;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 5px 5px;
+    background: white;
+    cursor: pointer;
+    border-radius: 100%;
+    margin:10px;
+}
+
+.double{
+    flex-basis: 50%;
+}
+
+.display{
+    border-bottom: 5px solid aqua;
+    font-size: 1.8em;
+    padding: 0 20px;
+    color: white;
+    background: #333;
+}
+
+.equals,.operator,.negative{
+    background: aqua;
+}
+
+.flex-container-row .equals{
+    border-radius: 250px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 10px;
+ }
+ .button:hover {
+    font-weight: bold;
+    transform: scaleX(1.1);
+    transition: .5s;
+ }
+
+ @media screen and (max-width: 513px) {
+    .button {
+        padding: 10px;
+    }
+ }
+
+ .history {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+ }
+ 
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+ th,td {
+   text-align: center;
+   padding: 16px;
+}
+th {
+    background:linear-gradient(180deg, aqua , #333);
+    color: white;
+ }
+  
+ tr:nth-child(even) {
+    background-color: #d2d2d2;
+ }
+ @media screen and (max-width: 513px) {
+    .button {
+        padding: 10px;
+    }
+    .history {
+        width: 100%;
+    }
+ }
+
+ table{
+     background-color: white;
+ }
+h2 {
+    margin-right: 10px;
+    display: inline-block;
+ }
+
+ button{
+     font-size: 16px;
+     height: 30px;
+     width: 130px;
+ }
