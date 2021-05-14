@@ -48,10 +48,3 @@ function renderHistory() {
 }
  
 renderHistory();
-
-const history = {
-    firstNumber: calculator.firstNumber,
-    secondNumber: calculator.displayNumber,
-    operator: calculator.operator,
-    result: result
-}
