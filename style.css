@@ -119,6 +119,21 @@ th {
     }
  }
 
+ @media screen and (max-width: 1025px) {
+    .button {
+        padding: 10px;
+    }
+    .history {
+        width: 100%;
+    }
+    header{
+        margin: auto;
+    }
+    @keyframes slide {
+        
+    }
+ }
+
  table{
      background-color: white;
  }
