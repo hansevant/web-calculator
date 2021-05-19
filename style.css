@@ -120,15 +120,9 @@ th {
  }
 
  @media screen and (max-width: 1025px) {
-    .button {
-        padding: 40px;
-    }
 
     @keyframes slide {
-        
-         50% {
-         margin-left: 300px;
-        }
+
      }
  }
 
